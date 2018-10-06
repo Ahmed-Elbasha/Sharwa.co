@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		767678F6C258C2BC8D4A3776 /* libPods-Sharwa.co.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DA003F561C6C96228C68B9 /* libPods-Sharwa.co.a */; };
 		7E4A5469216939D400209BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4A5468216939D400209BAF /* AppDelegate.swift */; };
 		7E4A546B216939D400209BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4A546A216939D400209BAF /* ViewController.swift */; };
 		7E4A546E216939D400209BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E4A546C216939D400209BAF /* Main.storyboard */; };
 		7E4A5470216939DB00209BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4A546F216939DB00209BAF /* Assets.xcassets */; };
 		7E4A5473216939DB00209BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E4A5471216939DB00209BAF /* LaunchScreen.storyboard */; };
+		7E4A547B21693AE500209BAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E4A547A21693AE500209BAF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		7E4A546F216939DB00209BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E4A5472216939DB00209BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E4A5474216939DB00209BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E4A547A21693AE500209BAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A4B8B15ACAB0D755C5811C0F /* Pods-Sharwa.co.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sharwa.co.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sharwa.co/Pods-Sharwa.co.release.xcconfig"; sourceTree = "<group>"; };
+		D0AD636BF7DEEDC32F3B43A6 /* Pods-Sharwa.co.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sharwa.co.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sharwa.co/Pods-Sharwa.co.debug.xcconfig"; sourceTree = "<group>"; };
+		D2DA003F561C6C96228C68B9 /* libPods-Sharwa.co.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sharwa.co.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767678F6C258C2BC8D4A3776 /* libPods-Sharwa.co.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				7E4A5467216939D400209BAF /* Sharwa.co */,
 				7E4A5466216939D400209BAF /* Products */,
+				BC19796A365FAB1F150B50EB /* Pods */,
+				B7263B77C8B9901362E8D81F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				7E4A546F216939DB00209BAF /* Assets.xcassets */,
 				7E4A5471216939DB00209BAF /* LaunchScreen.storyboard */,
 				7E4A5474216939DB00209BAF /* Info.plist */,
+				7E4A547A21693AE500209BAF /* GoogleService-Info.plist */,
 			);
 			path = Sharwa.co;
+			sourceTree = "<group>";
+		};
+		B7263B77C8B9901362E8D81F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2DA003F561C6C96228C68B9 /* libPods-Sharwa.co.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC19796A365FAB1F150B50EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD636BF7DEEDC32F3B43A6 /* Pods-Sharwa.co.debug.xcconfig */,
+				A4B8B15ACAB0D755C5811C0F /* Pods-Sharwa.co.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +98,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E4A5477216939DB00209BAF /* Build configuration list for PBXNativeTarget "Sharwa.co" */;
 			buildPhases = (
+				2E73CB8C36FB038B7190D6E9 /* [CP] Check Pods Manifest.lock */,
 				7E4A5461216939D400209BAF /* Sources */,
 				7E4A5462216939D400209BAF /* Frameworks */,
 				7E4A5463216939D400209BAF /* Resources */,
@@ -124,11 +152,33 @@
 			files = (
 				7E4A5473216939DB00209BAF /* LaunchScreen.storyboard in Resources */,
 				7E4A5470216939DB00209BAF /* Assets.xcassets in Resources */,
+				7E4A547B21693AE500209BAF /* GoogleService-Info.plist in Resources */,
 				7E4A546E216939D400209BAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E73CB8C36FB038B7190D6E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sharwa.co-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E4A5461216939D400209BAF /* Sources */ = {
@@ -280,6 +330,7 @@
 		};
 		7E4A5478216939DB00209BAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0AD636BF7DEEDC32F3B43A6 /* Pods-Sharwa.co.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +348,7 @@
 		};
 		7E4A5479216939DB00209BAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B8B15ACAB0D755C5811C0F /* Pods-Sharwa.co.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
