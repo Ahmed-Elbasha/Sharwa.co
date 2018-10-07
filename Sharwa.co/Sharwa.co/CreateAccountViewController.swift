@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CreateAccountViewController.swift
 //  Sharwa.co
 //
 //  Created by Ahmed Elbasha on 10/6/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CreateAccountViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
